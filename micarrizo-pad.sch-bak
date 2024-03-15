@@ -159,17 +159,6 @@ $EndComp
 Wire Wire Line
 	6750 4300 6850 4300
 $Comp
-L MX_Alps_Hybrid:The-Big-Switch U?
-U 1 1 65EF48DD
-P 4900 3650
-F 0 "U?" H 4958 4415 50  0000 C CNN
-F 1 "The-Big-Switch" H 4958 4324 50  0000 C CNN
-F 2 "" H 4350 4300 50  0001 C CNN
-F 3 "" H 4350 4300 50  0001 C CNN
-	1    4900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 65F09C65
 P 5900 2850
@@ -217,4 +206,15 @@ F 3 "~" V 6250 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 3000 6350 3000
+$Comp
+L New_Library:The-Big-Switch U?
+U 1 1 65F2656C
+P 4800 3650
+F 0 "U?" H 4858 4415 50  0000 C CNN
+F 1 "The-Big-Switch" H 4858 4324 50  0000 C CNN
+F 2 "" H 4250 4300 50  0001 C CNN
+F 3 "" H 4250 4300 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

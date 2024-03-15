@@ -111,17 +111,6 @@ $EndComp
 Wire Wire Line
 	5750 4300 5850 4300
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 65EF06F6
-P 6400 4150
-F 0 "MX?" H 6433 4373 60  0000 C CNN
-F 1 "MX-NoLED" H 6433 4299 20  0000 C CNN
-F 2 "" H 5775 4125 60  0001 C CNN
-F 3 "" H 5775 4125 60  0001 C CNN
-	1    6400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D?
 U 1 1 65EF06FC
 P 6250 4400
@@ -209,12 +198,209 @@ Wire Wire Line
 $Comp
 L New_Library:The-Big-Switch U?
 U 1 1 65F2656C
-P 4800 3650
-F 0 "U?" H 4858 4415 50  0000 C CNN
-F 1 "The-Big-Switch" H 4858 4324 50  0000 C CNN
-F 2 "" H 4250 4300 50  0001 C CNN
-F 3 "" H 4250 4300 50  0001 C CNN
-	1    4800 3650
+P 4800 3600
+F 0 "U?" H 4858 4365 50  0000 C CNN
+F 1 "The-Big-Switch" H 4858 4274 50  0000 C CNN
+F 2 "" H 4250 4250 50  0001 C CNN
+F 3 "" H 4250 4250 50  0001 C CNN
+	1    4800 3600
 	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:KB2040 U?
+U 1 1 65F497B3
+P 3250 3650
+F 0 "U?" H 3250 4515 50  0000 C CNN
+F 1 "KB2040" H 3250 4424 50  0000 C CNN
+F 2 "" H 3400 4400 50  0001 C CNN
+F 3 "" H 3400 4400 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 65F4CF1E
+P 4500 4400
+F 0 "D?" V 4546 4332 50  0000 R CNN
+F 1 "D_Small" V 4455 4332 50  0000 R CNN
+F 2 "" V 4500 4400 50  0001 C CNN
+F 3 "~" V 4500 4400 50  0001 C CNN
+	1    4500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 3350 2850 3450
+Wire Wire Line
+	2700 3350 2850 3350
+Connection ~ 2850 3350
+$Comp
+L power:GND #PWR?
+U 1 1 65F4F1ED
+P 2700 3350
+F 0 "#PWR?" H 2700 3100 50  0001 C CNN
+F 1 "GND" H 2705 3177 50  0000 C CNN
+F 2 "" H 2700 3350 50  0001 C CNN
+F 3 "" H 2700 3350 50  0001 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3250 3800 3250
+$Comp
+L power:GND #PWR?
+U 1 1 65F51406
+P 3800 3250
+F 0 "#PWR?" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3805 3077 50  0000 C CNN
+F 2 "" H 3800 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3150 3800 3150
+$Comp
+L power:+5V #PWR?
+U 1 1 65F51F24
+P 3800 3150
+F 0 "#PWR?" H 3800 3000 50  0001 C CNN
+F 1 "+5V" H 3815 3323 50  0000 C CNN
+F 2 "" H 3800 3150 50  0001 C CNN
+F 3 "" H 3800 3150 50  0001 C CNN
+	1    3800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4500 5750 4500
+Connection ~ 5750 4500
+Wire Wire Line
+	5750 4500 6250 4500
+Connection ~ 6250 4500
+Wire Wire Line
+	6250 4500 6750 4500
+Connection ~ 6750 4500
+Wire Wire Line
+	6750 4500 7350 4500
+Text GLabel 7350 3850 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	6000 3750 5750 3750
+Wire Wire Line
+	5750 3750 5750 3850
+Wire Wire Line
+	5750 3850 6250 3850
+Connection ~ 5750 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 6750 3850
+Connection ~ 6750 3850
+Wire Wire Line
+	6750 3850 7350 3850
+Text GLabel 7350 4500 2    50   Input ~ 0
+ROW2
+Wire Wire Line
+	5900 3100 5750 3100
+Wire Wire Line
+	5750 3100 5750 3200
+Wire Wire Line
+	5750 3200 6250 3200
+Connection ~ 5750 3200
+Connection ~ 6250 3200
+Wire Wire Line
+	6250 3200 7350 3200
+Text GLabel 7350 3200 2    50   Input ~ 0
+ROW0
+Wire Wire Line
+	5500 3350 5500 2400
+Text GLabel 6050 2400 1    50   Input ~ 0
+COL1
+Wire Wire Line
+	6050 4100 6050 3450
+Connection ~ 6050 2800
+Wire Wire Line
+	6050 2800 6050 2400
+Connection ~ 6050 3450
+Wire Wire Line
+	6050 3450 6050 2800
+Text GLabel 6550 2400 1    50   Input ~ 0
+COL2
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 65EF06F6
+P 6400 4150
+F 0 "MX?" H 6433 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 6433 4299 20  0000 C CNN
+F 2 "" H 5775 4125 60  0001 C CNN
+F 3 "" H 5775 4125 60  0001 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2400 6550 2800
+Connection ~ 6550 2800
+Wire Wire Line
+	6550 2800 6550 3450
+Connection ~ 6550 3450
+Wire Wire Line
+	6550 3450 6550 4100
+Text GLabel 7050 2400 1    50   Input ~ 0
+COL3
+Wire Wire Line
+	7050 4100 7050 3450
+Connection ~ 7050 3450
+Wire Wire Line
+	7050 3450 7050 2400
+Text GLabel 5500 2400 1    50   Input ~ 0
+COL0
+Text GLabel 2550 3650 0    50   Input ~ 0
+ROW1
+Text GLabel 2550 3750 0    50   Input ~ 0
+ROW2
+Text GLabel 2550 3850 0    50   Input ~ 0
+ROW3
+Text GLabel 2550 3950 0    50   Input ~ 0
+COL1
+Text GLabel 2550 4050 0    50   Input ~ 0
+COL2
+Text GLabel 2550 4150 0    50   Input ~ 0
+COL3
+Text GLabel 2550 4250 0    50   Input ~ 0
+COL4
+Wire Wire Line
+	2550 3650 2850 3650
+Wire Wire Line
+	2550 3750 2850 3750
+Wire Wire Line
+	2550 3850 2850 3850
+Wire Wire Line
+	2550 3950 2850 3950
+Wire Wire Line
+	2550 4050 2850 4050
+Wire Wire Line
+	2550 4150 2850 4150
+Wire Wire Line
+	2550 4250 2850 4250
+NoConn ~ 2850 3550
+NoConn ~ 3650 3350
+NoConn ~ 3650 3450
+$Comp
+L dk_Encoders:PEC11R-4215F-S0024 S?
+U 1 1 65F65306
+P 3950 4900
+F 0 "S?" H 3900 5272 60  0000 C CNN
+F 1 "PEC11R-4215F-S0024" H 3900 5166 60  0000 C CNN
+F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 4150 5100 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 4150 5200 60  0001 L CNN
+F 4 "PEC11R-4215F-S0024-ND" H 4150 5300 60  0001 L CNN "Digi-Key_PN"
+F 5 "PEC11R-4215F-S0024" H 4150 5400 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 4150 5500 60  0001 L CNN "Category"
+F 7 "Encoders" H 4150 5600 60  0001 L CNN "Family"
+F 8 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 4150 5700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 4150 5800 60  0001 L CNN "DK_Detail_Page"
+F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 4150 5900 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 4150 6000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4150 6100 60  0001 L CNN "Status"
+	1    3950 4900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
