@@ -386,21 +386,55 @@ NoConn ~ 3650 3450
 $Comp
 L dk_Encoders:PEC11R-4215F-S0024 S?
 U 1 1 65F65306
-P 3950 4900
-F 0 "S?" H 3900 5272 60  0000 C CNN
-F 1 "PEC11R-4215F-S0024" H 3900 5166 60  0000 C CNN
-F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 4150 5100 60  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 4150 5200 60  0001 L CNN
-F 4 "PEC11R-4215F-S0024-ND" H 4150 5300 60  0001 L CNN "Digi-Key_PN"
-F 5 "PEC11R-4215F-S0024" H 4150 5400 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 4150 5500 60  0001 L CNN "Category"
-F 7 "Encoders" H 4150 5600 60  0001 L CNN "Family"
-F 8 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 4150 5700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 4150 5800 60  0001 L CNN "DK_Detail_Page"
-F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 4150 5900 60  0001 L CNN "Description"
-F 11 "Bourns Inc." H 4150 6000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4150 6100 60  0001 L CNN "Status"
-	1    3950 4900
+P 8600 3550
+F 0 "S?" H 8550 3922 60  0000 C CNN
+F 1 "PEC11R-4215F-S0024" H 8550 3816 60  0000 C CNN
+F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 8800 3750 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 8800 3850 60  0001 L CNN
+F 4 "PEC11R-4215F-S0024-ND" H 8800 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "PEC11R-4215F-S0024" H 8800 4050 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 8800 4150 60  0001 L CNN "Category"
+F 7 "Encoders" H 8800 4250 60  0001 L CNN "Family"
+F 8 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 8800 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 8800 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "ROTARY ENCODER MECHANICAL 24PPR" H 8800 4550 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 8800 4650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8800 4750 60  0001 L CNN "Status"
+	1    8600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65FB7F76
+P 8800 3450
+F 0 "#PWR?" H 8800 3200 50  0001 C CNN
+F 1 "GND" H 8805 3277 50  0000 C CNN
+F 2 "" H 8800 3450 50  0001 C CNN
+F 3 "" H 8800 3450 50  0001 C CNN
+	1    8800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65FB99F0
+P 8300 3650
+F 0 "#PWR?" H 8300 3400 50  0001 C CNN
+F 1 "GND" H 8305 3477 50  0000 C CNN
+F 2 "" H 8300 3650 50  0001 C CNN
+F 3 "" H 8300 3650 50  0001 C CNN
+	1    8300 3650
 	0    1    1    0   
 $EndComp
+Text GLabel 8300 3450 0    50   Input ~ 0
+ENC_SW
+Text GLabel 8300 3550 0    50   Input ~ 0
+ENC_A
+Text GLabel 8300 3750 0    50   Input ~ 0
+ENC_B
+Text GLabel 3650 3850 2    50   Input ~ 0
+ENC_SW
+Text GLabel 3650 3650 2    50   Input ~ 0
+ENC_A
+Text GLabel 3650 3750 2    50   Input ~ 0
+ENC_B
 $EndSCHEMATC
