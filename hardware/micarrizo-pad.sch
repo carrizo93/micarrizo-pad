@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX3
+L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 65EE9E93
 P 5900 3500
 F 0 "MX3" H 5933 3723 60  0000 C CNN
@@ -39,7 +39,7 @@ $EndComp
 Wire Wire Line
 	5750 3650 5850 3650
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX4
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX4
 U 1 1 65EEEAC1
 P 6400 3500
 F 0 "MX4" H 6433 3723 60  0000 C CNN
@@ -63,7 +63,7 @@ $EndComp
 Wire Wire Line
 	6250 3650 6350 3650
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX5
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX5
 U 1 1 65EEF2E3
 P 6900 3500
 F 0 "MX5" H 6933 3723 60  0000 C CNN
@@ -87,7 +87,7 @@ $EndComp
 Wire Wire Line
 	6750 3650 6850 3650
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX6
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX6
 U 1 1 65EF00BE
 P 5900 4150
 F 0 "MX6" H 5933 4373 60  0000 C CNN
@@ -124,7 +124,7 @@ $EndComp
 Wire Wire Line
 	6250 4300 6350 4300
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX8
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX8
 U 1 1 65EF11E9
 P 6900 4150
 F 0 "MX8" H 6933 4373 60  0000 C CNN
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	5750 3000 5850 3000
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX2
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX2
 U 1 1 65F09C72
 P 6400 2850
 F 0 "MX2" H 6433 3073 60  0000 C CNN
@@ -315,7 +315,7 @@ Wire Wire Line
 Text GLabel 6550 2400 1    50   Input ~ 0
 COL2
 $Comp
-L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid MX7
+L micarrizo-pad-rescue:MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX7
 U 1 1 65EF06F6
 P 6400 4150
 F 0 "MX7" H 6433 4373 60  0000 C CNN

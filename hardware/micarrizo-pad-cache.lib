@@ -123,11 +123,11 @@ X COM C -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid
+# micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue
 #
-DEF micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid MX 0 40 Y Y 1 F N
+DEF micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue MX 0 40 Y Y 1 F N
 F0 "MX" -25 150 60 H V C CNN
-F1 "micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid" -25 50 20 H V C CNN
+F1 "micarrizo-pad-rescue_MX-NoLED-MX_Alps_Hybrid-micarrizo-pad-rescue" -25 50 20 H V C CNN
 F2 "" -625 -25 60 H I C CNN
 F3 "" -625 -25 60 H I C CNN
 DRAW
