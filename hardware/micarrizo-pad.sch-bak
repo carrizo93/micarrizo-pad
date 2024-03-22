@@ -421,10 +421,10 @@ Text GLabel 8300 3550 0    50   Input ~ 0
 ENC_A
 Text GLabel 8300 3750 0    50   Input ~ 0
 ENC_B
-Text GLabel 3650 3850 2    50   Input ~ 0
+Text GLabel 3650 4250 2    50   Input ~ 0
 ENC_SW
-Text GLabel 3650 3650 2    50   Input ~ 0
+Text GLabel 3650 4050 2    50   Input ~ 0
 ENC_A
-Text GLabel 3650 3750 2    50   Input ~ 0
+Text GLabel 3650 4150 2    50   Input ~ 0
 ENC_B
 $EndSCHEMATC
